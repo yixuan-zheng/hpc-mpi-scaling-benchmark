@@ -227,8 +227,8 @@ The benchmarking pipeline provides a reproducible framework for evaluating **com
 ## 1. Clone repository
 
 ```bash
-git clone <repo-url>
-cd hpc_benchmark
+git clone https://github.com/yixuan-zheng/hpc-mpi-scaling-benchmark.git
+cd hpc-mpi-scaling-benchmark
 ```
 
 ## 2. Compile
