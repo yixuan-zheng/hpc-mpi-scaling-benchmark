@@ -21,9 +21,9 @@ The objectives of this project are:
 2. Evaluate **strong scaling performance** across multiple nodes.
 3. Measure the relationship between:
 
-[
-\text{runtime},; \text{speedup},; \text{efficiency},; \text{communication overhead}
-]
+$$
+[\text{runtime},\; \text{speedup},\; \text{efficiency},\; \text{communication overhead}]
+$$
 
 4. Demonstrate key HPC principles:
 
@@ -39,11 +39,13 @@ We use a **row-wise distributed matrix multiplication** approach.
 
 Given:
 
-[
+$$
 C = A \times B
-]
+$$
 
-where (A,B,C \in \mathbb{R}^{N \times N})
+$$
+\text{where } (A, B, C \in \mathbb{R}^{N \times N})
+$$
 
 ### Data distribution
 
@@ -118,13 +120,13 @@ Experiments were performed on the **Georgia Tech PACE HPC cluster**.
 ### Matrix sizes tested
 
 $$
-N = 1024,\; 2048,\; 4096
+N = 1024,\ 2048,\ 4096
 $$
 
 ### Process counts
 
 $$
-P = 1,\; 2,\; 4
+P = 1,\ 2,\ 4
 $$
 
 ### Trials
@@ -138,7 +140,7 @@ Each configuration was executed **3 times**, and the minimum runtime was used to
 *(Insert plot here)*
 
 ```
-results/benchmark_pace_main_speedup.png
+![Plot 1] (results/benchmark_pace_main_speedup.png)
 ```
 
 ---
@@ -148,7 +150,7 @@ results/benchmark_pace_main_speedup.png
 *(Insert plot here)*
 
 ```
-results/benchmark_pace_main_efficiency.png
+![Plot 2] (results/benchmark_pace_main_efficiency.png)
 ```
 
 ---
@@ -158,7 +160,7 @@ results/benchmark_pace_main_efficiency.png
 *(Insert plot here)*
 
 ```
-results/benchmark_pace_main_comm_ratio.png
+![Plot 3] (results/benchmark_pace_main_comm_ratio.png)
 ```
 
 # Analysis
