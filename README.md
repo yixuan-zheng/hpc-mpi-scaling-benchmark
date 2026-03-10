@@ -22,7 +22,7 @@ The objectives of this project are:
 3. Measure the relationship between:
 
 $$
-[\text{runtime},\; \text{speedup},\; \text{efficiency},\; \text{communication overhead}]
+[\text{runtime},\ \text{speedup},\ \text{efficiency},\ \text{communication overhead}]
 $$
 
 4. Demonstrate key HPC principles:
@@ -43,8 +43,10 @@ $$
 C = A \times B
 $$
 
+where
+
 $$
-\text{where } (A, B, C \in \mathbb{R}^{N \times N})
+A, B, C \in \mathbb{R}^{N \times N})
 $$
 
 ### Data distribution
@@ -137,31 +139,19 @@ Each configuration was executed **3 times**, and the minimum runtime was used to
 
 ## Speedup vs Processes
 
-*(Insert plot here)*
-
-```
-![Plot 1] (results/benchmark_pace_main_speedup.png)
-```
+![Plot 1](results/benchmark_pace_main_speedup.png)
 
 ---
 
 ## Efficiency vs Processes
 
-*(Insert plot here)*
-
-```
-![Plot 2] (results/benchmark_pace_main_efficiency.png)
-```
+![Plot 2](results/benchmark_pace_main_efficiency.png)
 
 ---
 
 ## Communication Ratio vs Processes
 
-*(Insert plot here)*
-
-```
-![Plot 3] (results/benchmark_pace_main_comm_ratio.png)
-```
+![Plot 3](results/benchmark_pace_main_comm_ratio.png)
 
 # Analysis
 
